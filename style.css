@@ -1,0 +1,154 @@
+h1{
+    text-align: left;
+    margin-left: 120px;
+    text-decoration: underline rgb(63, 61, 61);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-attachment: fixed;
+}
+
+div.gallery{
+    margin: 10px;
+    max-width: 38%;
+    float: left;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(28, 14, 80);
+}
+
+div.desc{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: rgb(206, 194, 194);
+    color: black;
+}
+
+div.scroll-container{
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px
+}
+
+div.scroll-container img{
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+}
+
+.button{
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    margin-right: 5px;
+    cursor:  pointer;
+}
+
+.button:hover{
+    background-color: rgb(58, 152, 240);
+    color: black;
+}
+
+p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table, th, td{
+    border: 2px solid rgb(38, 39, 51);
+    border-collapse: collapse;
+    width: 40%;
+    font-size: 18px;
+    font-family: sans-serif, verdana;
+}
+
+#menu{
+    height: 40px;
+    background-color: none;
+}
+
+#menu a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 3px solid black;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#menu a:hover{
+    color: rgb(236, 10, 10);
+}
+
+h2{
+    color: rgb(19, 19, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+    color: rgb(63, 149, 230);
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+form{
+    max-width: 300px;
+    margin: 10px;
+}
+
+.feedback-input{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    line-height: 15px;
+    border: 2px solid #269ce0;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.textarea{
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type=submit]{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    background: #269ce0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+[type="submit"]:hover{
+    background: rgb(19, 19, 151);
+}
